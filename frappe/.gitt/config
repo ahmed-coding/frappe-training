@@ -1,0 +1,11 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+[remote "upstream"]
+	url = https://github.com/frappe/frappe.git
+	fetch = +refs/heads/version-15:refs/remotes/upstream/version-15
+[branch "version-15"]
+	remote = upstream
+	merge = refs/heads/version-15

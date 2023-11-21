@@ -1,0 +1,23 @@
+{
+ "cards": [],
+ "charts": [
+  {
+   "width": "Half"
+  },
+  {
+   "width": "Half"
+  }
+ ],
+ "creation": "2023-11-16 22:45:54.987255",
+ "dashboard_name": "Test Dashboard",
+ "docstatus": 0,
+ "doctype": "Dashboard",
+ "idx": 0,
+ "is_default": 1,
+ "is_standard": 1,
+ "modified": "2023-11-16 22:47:02.924607",
+ "modified_by": "Administrator",
+ "module": "Website",
+ "name": "Test Dashboard",
+ "owner": "Administrator"
+}
