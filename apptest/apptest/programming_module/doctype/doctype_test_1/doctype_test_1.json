@@ -5,17 +5,23 @@
  "doctype": "DocType",
  "engine": "InnoDB",
  "field_order": [
-  "section_break_q2lb"
+  "section_break_q2lb",
+  "name1"
  ],
  "fields": [
   {
    "fieldname": "section_break_q2lb",
    "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "name1",
+   "fieldtype": "Data",
+   "label": "Name"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-11-24 21:50:10.503045",
+ "modified": "2023-11-24 23:39:22.915915",
  "modified_by": "Administrator",
  "module": "Programming Module",
  "name": "DocType Test 1",
