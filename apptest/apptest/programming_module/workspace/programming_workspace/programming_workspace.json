@@ -7,27 +7,65 @@
  "doctype": "Workspace",
  "for_user": "",
  "hide_custom": 0,
+ "icon": "non-profit",
  "idx": 0,
  "indicator_color": "green",
  "is_hidden": 0,
  "label": "Programming workspace",
- "links": [],
- "modified": "2023-11-23 01:09:54.962897",
+ "links": [
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Item",
+   "link_count": 0,
+   "link_to": "Item",
+   "link_type": "DocType",
+   "onboard": 1,
+   "type": "Link"
+  }
+ ],
+ "modified": "2023-11-24 22:01:32.253773",
  "modified_by": "Administrator",
- "module": "programming_module",
+ "module": "Programming Module",
  "name": "Programming workspace",
- "number_cards": [],
+ "number_cards": [
+  {
+   "label": "Active Customers",
+   "number_card_name": "Active Customers"
+  }
+ ],
  "owner": "Administrator",
- "parent_page": " Publc",
+ "parent_page": "",
  "public": 1,
  "quick_lists": [],
- "roles": [],
- "sequence_id": 0.0,
+ "roles": [
+  {
+   "role": "All"
+  }
+ ],
+ "sequence_id": 55.0,
  "shortcuts": [
   {
+   "color": "#ECAD4B",
    "doc_view": "",
-   "label": "Items",
+   "format": "{} Available",
+   "label": "Programming_module",
    "link_to": "Item",
+   "stats_filter": "{\n    \"disabled\": 0\n}",
+   "type": "DocType",
+   "url": ""
+  },
+  {
+   "color": "#EC864B",
+   "doc_view": "List",
+   "label": "DocType Test 1",
+   "link_to": "DocType Test 1",
+   "type": "DocType"
+  },
+  {
+   "doc_view": "",
+   "label": "DocType Test 2",
+   "link_to": "DocType Test 2",
    "type": "DocType"
   }
  ],
